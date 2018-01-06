@@ -15,6 +15,7 @@
 		963466B01FEAF803006CDA1D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 960BEBA71FDCCB85008C7628 /* Info.plist */; };
 		964738161FDDFFB00095B8C9 /* MemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964738151FDDFFB00095B8C9 /* MemeModel.swift */; };
 		964738181FDE054F0095B8C9 /* ImagePickerControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964738171FDE054F0095B8C9 /* ImagePickerControllerDelegate.swift */; };
+		9669B1A31FEF294A00D3FD67 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9669B1A21FEF294A00D3FD67 /* AppModel.swift */; };
 		96837F551FE86766003C4882 /* impact.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96837F541FE86766003C4882 /* impact.ttf */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +29,7 @@
 		960BEBA71FDCCB85008C7628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "/Users/jason/Library/Mobile Documents/com~apple~CloudDocs/Swift/MemeMe/Includes/Info.plist"; sourceTree = "<absolute>"; };
 		964738151FDDFFB00095B8C9 /* MemeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeModel.swift; sourceTree = "<group>"; };
 		964738171FDE054F0095B8C9 /* ImagePickerControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerControllerDelegate.swift; sourceTree = "<group>"; };
+		9669B1A21FEF294A00D3FD67 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		96837F541FE86766003C4882 /* impact.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = impact.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,6 +80,7 @@
 				960BEBA71FDCCB85008C7628 /* Info.plist */,
 				96837F541FE86766003C4882 /* impact.ttf */,
 				960BEBA41FDCCB85008C7628 /* LaunchScreen.storyboard */,
+				9669B1A21FEF294A00D3FD67 /* AppModel.swift */,
 			);
 			path = Includes;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				960BEB9E1FDCCB85008C7628 /* MemeEditViewController.swift in Sources */,
 				964738161FDDFFB00095B8C9 /* MemeModel.swift in Sources */,
 				964738181FDE054F0095B8C9 /* ImagePickerControllerDelegate.swift in Sources */,
+				9669B1A31FEF294A00D3FD67 /* AppModel.swift in Sources */,
 				960BEB9C1FDCCB85008C7628 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
