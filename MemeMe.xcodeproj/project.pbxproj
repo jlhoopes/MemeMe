@@ -12,7 +12,6 @@
 		960BEBA11FDCCB85008C7628 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960BEB9F1FDCCB85008C7628 /* Main.storyboard */; };
 		960BEBA31FDCCB85008C7628 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 960BEBA21FDCCB85008C7628 /* Assets.xcassets */; };
 		960BEBA61FDCCB85008C7628 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960BEBA41FDCCB85008C7628 /* LaunchScreen.storyboard */; };
-		963466B01FEAF803006CDA1D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 960BEBA71FDCCB85008C7628 /* Info.plist */; };
 		964738161FDDFFB00095B8C9 /* MemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964738151FDDFFB00095B8C9 /* MemeModel.swift */; };
 		964738181FDE054F0095B8C9 /* ImagePickerControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964738171FDE054F0095B8C9 /* ImagePickerControllerDelegate.swift */; };
 		9669B1A31FEF294A00D3FD67 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9669B1A21FEF294A00D3FD67 /* AppModel.swift */; };
@@ -20,13 +19,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		745B3F952022459800876DE2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		960BEB981FDCCB85008C7628 /* MemeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		960BEB9B1FDCCB85008C7628 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		960BEB9D1FDCCB85008C7628 /* MemeEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeEditViewController.swift; sourceTree = "<group>"; };
 		960BEBA01FDCCB85008C7628 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		960BEBA21FDCCB85008C7628 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		960BEBA51FDCCB85008C7628 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		960BEBA71FDCCB85008C7628 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "/Users/jason/Library/Mobile Documents/com~apple~CloudDocs/Swift/MemeMe/Includes/Info.plist"; sourceTree = "<absolute>"; };
 		964738151FDDFFB00095B8C9 /* MemeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeModel.swift; sourceTree = "<group>"; };
 		964738171FDE054F0095B8C9 /* ImagePickerControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerControllerDelegate.swift; sourceTree = "<group>"; };
 		9669B1A21FEF294A00D3FD67 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
@@ -77,7 +76,7 @@
 		96837F531FE864FC003C4882 /* Includes */ = {
 			isa = PBXGroup;
 			children = (
-				960BEBA71FDCCB85008C7628 /* Info.plist */,
+				745B3F952022459800876DE2 /* Info.plist */,
 				96837F541FE86766003C4882 /* impact.ttf */,
 				960BEBA41FDCCB85008C7628 /* LaunchScreen.storyboard */,
 				9669B1A21FEF294A00D3FD67 /* AppModel.swift */,
@@ -112,7 +111,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Jason;
 				TargetAttributes = {
 					960BEB971FDCCB85008C7628 = {
@@ -147,7 +146,6 @@
 				96837F551FE86766003C4882 /* impact.ttf in Resources */,
 				960BEBA61FDCCB85008C7628 /* LaunchScreen.storyboard in Resources */,
 				960BEBA31FDCCB85008C7628 /* Assets.xcassets in Resources */,
-				963466B01FEAF803006CDA1D /* Info.plist in Resources */,
 				960BEBA11FDCCB85008C7628 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
